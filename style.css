@@ -1,0 +1,49 @@
+h2{
+    text-align:center;
+    color: black;
+}
+
+.general{
+    margin-left: 30%;
+    text-align: center;
+    background-color: rgb(112, 91, 91);
+
+    width: 40%;
+    height: 30%;
+}
+.evry{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button{
+    border-radius: 35% 35%;
+    width: 8%;
+    color: white;
+    background-color: black;
+    margin-top: 3%;
+}
+input{
+    background-color: black;
+    color: white;
+    width: 45%;
+    border-radius: 15% 25%;
+    margin-top: 3%;
+}
+@media screen and (max-width: 480px) {
+    /* Adjust the font size of the calculator display */
+    .res input {
+      font-size: 24px;
+    }
+  
+    /* Reduce the width of the buttons */
+    .numbers,
+    .jmd {
+      width: 45px;
+    }
+    .evry {
+        display: flex;
+        flex-direction: row;
+    }
+  }
