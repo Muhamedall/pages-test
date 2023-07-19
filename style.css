@@ -46,4 +46,9 @@ input{
         display: flex;
         flex-direction: row;
     }
+    .general{
+        
+        width: 60%;
+        
+    }
   }
