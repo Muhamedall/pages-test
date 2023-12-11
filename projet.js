@@ -16,6 +16,7 @@ function delet() {
 function equal() {
   const input = document.getElementById("ItemName");
   const expression = input.value;
+   document.getElementById("ItemName")="";
 
   try {
     const result = eval(expression); 
